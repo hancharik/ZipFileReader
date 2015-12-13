@@ -83,7 +83,7 @@ public class ZipFileReader {
                       // this sets a new text color for every file drop  
                       text.setForeground(randomColor1);
                        text.setBackground(randomColor2);
-                        text.append( "r " + R + "g " + G + "b " + B + "\n" );    
+                       // text.append( "r " + R + "g " + G + "b " + B + "\n" );    
                      text.append( "Here's what's in the zipped folder " + files[i].getCanonicalPath() + "\n" );    
 
 
