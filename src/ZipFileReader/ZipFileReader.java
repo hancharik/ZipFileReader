@@ -52,8 +52,8 @@ public class ZipFileReader {
                     { 
                         
                         
-                             
-     
+                            text.setText(null);     
+                            contents.clear();
      
     ZipFile zipFile = new ZipFile(files[i].getCanonicalPath());
     Enumeration<? extends ZipEntry> entries = zipFile.entries();
@@ -73,7 +73,7 @@ public class ZipFileReader {
                         
                         
                         
-                        text.setText(null);
+                    
                         //http://mathbits.com/MathBits/Java/Graphics/Color.htm
                         int R = (int) (Math.random( )*256);
                         int G = (int)(Math.random( )*256);
