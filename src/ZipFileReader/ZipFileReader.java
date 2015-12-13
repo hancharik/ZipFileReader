@@ -55,7 +55,7 @@ public class ZipFileReader {
                              
      
      
-    ZipFile zipFile = new ZipFile("C:\\Users\\Mark\\Desktop\\092615.zip");
+    ZipFile zipFile = new ZipFile(files[i].getCanonicalPath());
     Enumeration<? extends ZipEntry> entries = zipFile.entries();
     while(entries.hasMoreElements()){
         ZipEntry entry = entries.nextElement();
